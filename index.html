@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="random-word" style="top: 50px;">
+    <span class="letter">H</span>
+    <span class="letter">A</span>
+    <span class="letter">P</span>
+    <span class="letter">P</span>
+    <span class="letter">Y</span>
+  </div>
+  
+  <div class="random-word" style="top: 80px; text-align: center;">
+    <span class="letter">B</span>
+    <span class="letter">I</span>
+    <span class="letter">R</span>
+    <span class="letter">T</span>
+    <span class="letter">H</span>
+    <span class="letter">D</span>
+    <span class="letter">A</span>
+    <span class="letter">Y</span><br>
+    <span class="letter" style="margin-top: -5px;">J</span>
+    <span class="letter" style="margin-top: -5px;">E</span>
+    <span class="letter" style="margin-top: -5px;">N</span>
+    <span class="letter" style="margin-top: -5px;">I</span>
+    <span class="letter" style="margin-top: -5px;">N</span>
+    <!-- <span class="letter" style="margin-top: -5px;">I</span> -->
+  </div>
+
+
+
+    
+    <div class="bgImg" style="position: relative;">
+        <canvas id="birthday"></canvas>
+    </div>
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="anika-1">
+                <img src="jenin1.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="anika-2">
+                <img src="jenin2.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="anika-3">
+                <img src="jenin3.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="anika-4">
+                <img src="jenin4.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="anika-5">
+                <img src="jenin5.jpg" alt="">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="anika-6">
+                <img src="jenin6.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <video controls autoplay style="width: 1px;">
+        <source src="jeninBirthday.mp4">
+      </video>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="slick.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay : true,
+            loop : true,
+          navigation:
+           {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+
+
+</body>
+</html>
